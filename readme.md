@@ -10,7 +10,7 @@ npm install wikipedia-scrapers
 <h3>Basic Usage</h3>
 
 ```js
-const wikipedia = require('wiki-scraper');
+const wikipedia = require('wikipedia-scrapers');
 const wiki = new wikipedia()
 
 async function anything() {
