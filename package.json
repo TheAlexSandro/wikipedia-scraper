@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "name": "wikipedia",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": ["wikipedia", "wikipedia-scraper", "wikipedia-api"],
+  "author": "Kevin :D",
+  "license": "MIT",
+  "description": "This is an API to scrape wikipedia page with easily."
+}
