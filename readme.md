@@ -5,10 +5,6 @@ Wikipedia-scraper is a Node.js library that allows you to easily scrape Wikipedi
 ```code
 npm install wikipedia-scrapers
 ```
-or
-```code
-yarn add wikipedia-scrapers
-```
 
 ## Usage
 <h3>Basic Usage</h3>
