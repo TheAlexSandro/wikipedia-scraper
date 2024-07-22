@@ -6,8 +6,17 @@
   "name": "wikipedia-scrapers",
   "version": "1.0.0",
   "main": "index.js",
-  "keywords": ["wikipedia", "wikipedia-scraper", "wikipedia-api"],
+  "keywords": [
+    "wikipedia",
+    "wikipedia-scraper",
+    "wikipedia-api"
+  ],
   "author": "Kevin :D",
   "license": "MIT",
-  "description": "This is an API to scrape wikipedia page with easily."
+  "description": "This is an API to scrape wikipedia page with easily.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheAlexSandro/wikipedia-scrapers.git"
+  },
+  "homepage": "https://github.com/TheAlexSandro/wikipedia-scrapers#readme"
 }
