@@ -3,7 +3,7 @@
     "axios": "^1.7.2",
     "cheerio": "^1.0.0-rc.12"
   },
-  "name": "wikipedia",
+  "name": "wikipedia-scrapers",
   "version": "1.0.0",
   "main": "index.js",
   "keywords": ["wikipedia", "wikipedia-scraper", "wikipedia-api"],
