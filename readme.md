@@ -3,14 +3,14 @@ Wikipedia-scraper is a Node.js library that allows you to easily scrape Wikipedi
 
 ## Installation
 ```shellscript
-$ npm install wikipedia-scrapers
+$ npm install wikipedia-scraplib
 ```
 
 ## Usage
 <h3>Basic Usage</h3>
 
 ```js
-const wikipedia = require('wikipedia-scrapers');
+const wikipedia = require('wikipedia-scraplib');
 const wiki = new wikipedia()
 
 async function anything() {
