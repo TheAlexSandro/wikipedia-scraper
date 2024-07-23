@@ -2,8 +2,8 @@
 Wikipedia-scraper is a Node.js library that allows you to easily scrape Wikipedia pages. It provides methods to get the page content, set the language, and access various elements of the Wikipedia page. You can use this library to get page content from wikipedia.org.
 
 ## Installation
-```code
-npm install wikipedia-scrapers
+```shellscript
+$ npm install wikipedia-scrapers
 ```
 
 ## Usage
