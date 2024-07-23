@@ -1,16 +1,16 @@
-# Wikipedia Scraper
-Wikipedia-scraper is a Node.js library that allows you to easily scrape Wikipedia pages. It provides methods to get the page content, set the language, and access various elements of the Wikipedia page. You can use this library to get page content from wikipedia.org.
+# Wikipedia Scrapelib
+wikipedia-scrapelib is a Node.js library that allows you to easily scrape Wikipedia pages. It provides methods to get the page content, set the language, and access various elements of the Wikipedia page. You can use this library to get page content from wikipedia.org.
 
 ## Installation
 ```shellscript
-$ npm install wikipedia-scraplib
+$ npm install wikipedia-scrapelib
 ```
 
 ## Usage
 <h3>Basic Usage</h3>
 
 ```js
-const wikipedia = require('wikipedia-scraplib');
+const wikipedia = require('wikipedia-scrapelib');
 const wiki = new wikipedia()
 
 async function anything() {
