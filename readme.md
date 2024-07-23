@@ -24,11 +24,11 @@ The default host url of wikipedia is [en.wikipedia.org](en.wikipedia.org). If yo
 
 ```js
 async function anything() {
-    wiki.setlang('en') // the language code of your language.
+    wiki.setLang('en') // the language code of your language.
     console.log(await wiki.page("rhombicosidodecahedron"))
 }
 ```
-_Note: the language code you enter must be within ISO Code 639._
+_Note: the language code you enter must be within ISO Code._
 
 <h3>Disable Type</h3>
 
@@ -36,30 +36,39 @@ Use the disableType or disableTypes method to disable 1 or more results from the
 
 ```Supported type: header, paragraph, list and others```
 
-**Method**
+**disableType Method**
 
-Use `disableType` method to disable 1 result from generated page content:
-
-```js
-wiki.disableType("header")
-```
-
-Or use `disableTypes` method to disable some result from page content:
-
-<i>Note: the parameter of type must be array of supported type.</i>
-
-<b>Another note: you can't use <code>disableType</code> and <code>disableTypes</code> at the same time, pick one of them.</b>
+Use this method to disable 1 result from generated page content.
 
 Example:
-```js
-wiki.disableTypes(["header", "list"])
-```
-
-**Example Code:**
-
 ```js
 async function anything() {
     wiki.disableType("list")
     console.log(await wiki.page("rhombicosidodecahedron"))
 }
 ```
+
+<b>disableTypes Method</b>
+
+Use this method to disable some result from page content:
+
+<i>Note: the parameter of type must be array of supported type.</i>
+
+Example:
+```js
+async function anything() {
+    wiki.disableTypes(["header", "list"])
+    console.log(await wiki.page("rhombicosidodecahedron"))
+}
+```
+
+⚠️ <b>Warning:</b> you can't use <code>disableType</code> and <code>disableTypes</code> together, pick one of them.
+
+## Result
+The result will return as:
+
+<pre>{
+    title,
+    page,
+    links    
+}</pre>
