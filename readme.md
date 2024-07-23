@@ -1,5 +1,5 @@
 # Wikipedia Scrapelib
-wikipedia-scrapelib is a Node.js library that allows you to easily scrape Wikipedia pages. It provides methods to get the page content, set the language, and access various elements of the Wikipedia page. You can use this library to get page content from wikipedia.org.
+wikipedia-scrapelib is a Node.js library that allows you to easily scrape Wikipedia pages. It provides methods to get the page content, and other feature that you can use to access various elements of the Wikipedia page. You can use this library to get page content from wikipedia.org.
 
 ## Installation
 ```shellscript
@@ -24,7 +24,7 @@ The default host url of wikipedia is [en.wikipedia.org](en.wikipedia.org). If yo
 
 ```js
 async function anything() {
-    wiki.setLang('en') // the language code of your language.
+    wiki.setLang('fr') // the language code of your language.
     console.log(await wiki.page("rhombicosidodecahedron"))
 }
 ```
