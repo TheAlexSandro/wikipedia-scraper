@@ -3,7 +3,7 @@
     "axios": "^1.7.2",
     "cheerio": "^1.0.0-rc.12"
   },
-  "name": "wikipedia-scrapers",
+  "name": "wikipedia-scraplib",
   "version": "1.0.0",
   "main": "index.js",
   "keywords": [
